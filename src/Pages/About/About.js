@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from "../../assert/profile/tinywow_profile_photo_9101936"
+import img1 from "../../assert/profile/tinywow_profile_photo_9101936.png"
 const About = () => {
   return (
     <div>

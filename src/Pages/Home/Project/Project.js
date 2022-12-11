@@ -13,6 +13,17 @@ const Project = () => {
   const Projects = [
     {  id: 1,
       name : "Recycle-Cloth",
+      description : "A fully functional, full-stack website based on MERN.It is a Resale Cloth E-Commerce website. Users can create a buyer and seller Account Buyer can buy a product with card payment ,Users can create a buyer and seller Account Buyer can buy a product with card payment",
+
+      features : [
+      
+          "A fully functional, full-stack website based on MERN.It is a Resale Cloth E-Commerce website",
+          "Users can create a buyer and seller Account. Buyer can buy a product with card payment",
+          "Users can create a buyer and seller Account. Buyer can buy a product with card payment"
+     
+
+      ],
+
       technology : " Technologies : React JS, MongoDB, Node JS, Express JS",
       image : img1,
       live_link : "https://recycle-clothh.web.app/",

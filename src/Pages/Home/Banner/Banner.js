@@ -30,7 +30,7 @@ useEffect(() => {
        <button className='btn mt-2 rounded-md text-white bg-transparent border-2 border-emerald-400  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'>Download Resume</button>
 
       </a>
-        <button className='btn mt-2 rounded-md text-white bg-transparent border-2 border-emerald-400  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'> Hire me</button>
+         <button className='btn mt-2 rounded-md text-white bg-transparent border-2 border-emerald-400  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'> Hire me</button>
      </div>
   </div>
   <div data-aos="fade-right">

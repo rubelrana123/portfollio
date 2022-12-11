@@ -25,15 +25,13 @@ const ProjectItem = ({project}) => {
             </div>
 						<div className='flex justify-between'>
 							 <a href={project?.live_link} className='btn btn-sm  rounded-md  text-white bg-transparent border-2 border-emerald-400 text-sm  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'>Live Link</a>
-              <a href={project?.live_link} className='btn btn-sm  rounded-md  text-white bg-transparent border-2 border-emerald-400  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'>Client Link</a>
-              <a href={project?.live_link} className='btn btn-sm   rounded-md  text-white bg-transparent border-2 border-emerald-400  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'>Server Link</a>
+              <a href={project?.client_link} className='btn btn-sm  rounded-md  text-white bg-transparent border-2 border-emerald-400  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'>Client Link</a>
+              <a href={project?.server_link} className='btn btn-sm   rounded-md  text-white bg-transparent border-2 border-emerald-400  hover:bg-emerald-500 hover:border-2 hover:border-emerald-400'>Server Link</a>
 						</div>
          
-            {/* <p>{ description?.length > 100 && description?.slice(1,120) + "....."  }</p> */}
 						<div>
-               <p>Lorem ipsum dolor sit amet consectetur, </p>
-               <p>Lorem ipsum dolor sit amet consectetur, </p>
-               <p>Lorem ipsum dolor sit amet consectetur, </p>
+              
+            <p>{ project?.description?.length > 100 && project?.description?.slice(1,120) + "....."  }</p>
                 
 						</div>
             <div className="card-actions justify-between">
