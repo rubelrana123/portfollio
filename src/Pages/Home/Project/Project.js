@@ -44,7 +44,7 @@ const Project = () => {
 
       <div data-aos="fade-right" className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 items-center mt-12'>
         {
-          Projects.map(Project => <ProjectItem key={Project.id} Project={Project} ></ProjectItem> )
+          Projects.map(Project => <ProjectItem key={Project.id} project={Project} ></ProjectItem> )
         }
       </div>
     </div>
